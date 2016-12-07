@@ -37,7 +37,7 @@ Enjoy forwarding!
 Twilio provides a great API for [sending messages](https://www.twilio.com/docs/api/rest/sending-messages). However, after building a few chat-bots and SMS products, you learn a thing or two. This service makes it easier to deliver messages and provide a better experience for the receiver. It's also a great and scalable way to wrap your messaging service.
 
 
-The main features are that it handles **multiple mediaUrls**, automatically **truncates long messages** and **attempts to control delivery order** using timeouts.
+The main features are that it handles **multiple mediaUrls**, automatically **splits up long messages to avoide truncation** and **attempts to control delivery order** using timeouts.
 
 You have to set the following enviornment variables to make the function work (which means you have to fork this repo and submit your own [stdlib](https://stdlib.com) function!):
 
